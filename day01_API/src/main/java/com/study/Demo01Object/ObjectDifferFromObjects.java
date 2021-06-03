@@ -1,4 +1,4 @@
-package com.study;
+package com.study.Demo01Object;
 
 public class ObjectDifferFromObjects {
     public static void main(String[] args) {

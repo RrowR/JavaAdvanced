@@ -1,6 +1,4 @@
-package com.study;
-
-import java.util.Objects;
+package com.study.Demo01Object;
 
 public class Student extends Object{
     private String name;

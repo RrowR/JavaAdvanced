@@ -1,4 +1,4 @@
-package com.study;
+package com.study.Demo02Date;
 
 public class Demo01Date {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.study;
+package com.study.Demo01Object;
 
 import java.util.ArrayList;
 import java.util.Random;

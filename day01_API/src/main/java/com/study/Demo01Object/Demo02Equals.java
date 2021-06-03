@@ -1,6 +1,4 @@
-package com.study;
-
-import java.util.Random;
+package com.study.Demo01Object;
 
 public class Demo02Equals {
     public static void main(String[] args) {
