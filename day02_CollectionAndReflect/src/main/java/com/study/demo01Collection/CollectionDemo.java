@@ -1,4 +1,4 @@
-package com.study.demo01;
+package com.study.demo01Collection;
 
 import java.util.*;
 
