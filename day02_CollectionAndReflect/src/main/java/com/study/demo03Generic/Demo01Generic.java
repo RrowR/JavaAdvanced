@@ -39,7 +39,7 @@ public class Demo01Generic {
         list.add(1.1);
         Iterator iterator = list.iterator();
         while (iterator.hasNext()){
-        //想要使用String类，调用String类中的length方法
+            //想要使用String类，调用String类中的length方法
             Object next = iterator.next();
             String s = (String) next;       //将obj类型转换为String类型
             System.out.println(s.length());     //java.lang.Integer cannot be cast to java.lang.String      这里不能将Int类型转换成String类型
