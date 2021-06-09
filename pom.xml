@@ -11,6 +11,7 @@
     <modules>
         <module>day01_API</module>
         <module>day02_CollectionAndReflect</module>
+        <module>day03_ListAndSet</module>
     </modules>
     <dependencies>
         <dependency>
