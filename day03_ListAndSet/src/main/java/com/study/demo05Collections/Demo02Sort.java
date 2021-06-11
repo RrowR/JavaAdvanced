@@ -3,6 +3,12 @@ package com.study.demo05Collections;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * java.lang.Object
+ *  java.util.Collections
+ *      此类仅由静态方法组合或返回集合。 它包含对集合进行操作的多态算法
+ *      static <T extends Comparable<? super T>> void sort(List<T> list) 根据其元素的natural ordering对指定的列表进行排序。
+ */
 public class Demo02Sort {
     public static void main(String[] args) {
 //        demo01IntegerSort();
