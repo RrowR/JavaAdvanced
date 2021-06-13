@@ -9,7 +9,9 @@ public class DoudizhuPlusOfficial {
     public static void main(String[] args) {
         List<String> colors = List.of("♠", "♥", "♣", "♦");
         List<String> numbers = List.of("2", "A", "K", "Q", "J", "10", "9", "8", "7", "6", "5", "4", "3");
+        //定义一个牌库存储所有牌
         HashMap<Integer, String> poker = new HashMap<>();
+        //定义一个索引库，其value就是这个poker的key
         ArrayList<Integer> pokerIndex = new ArrayList<>();
         int index = 0;
         pokerIndex.add(index);
@@ -68,7 +70,7 @@ public class DoudizhuPlusOfficial {
 
     /**
      * @param name  传入名字
-     * @param poker 牌库，value就是map中的key
+     * @param poker 牌库
      * @param list  每个用户的索引库，其value就是HashMap牌哭中的key
      */
     private static void watchPoker(String name,HashMap<Integer,String> poker,ArrayList<Integer> list) {
