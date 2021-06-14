@@ -14,6 +14,7 @@
         <module>day03_ListAndSet</module>
         <module>day04_Map</module>
         <module>day05_ExceptionAndThread</module>
+        <module>PersonalExamination</module>
     </modules>
     <dependencies>
         <dependency>
