@@ -17,7 +17,7 @@ import java.io.IOException;
 public class Demo01TryCatch {
     public static void main(String[] args) {
         readFile("E:\\a.sss");
-        System.out.println("后续代码");
+        System.out.println("后续代码");     //因为方法体里有进行catch的操作，这里的代码也会继续执行
     }
 
     private static void readFile(String filepath) {
@@ -29,6 +29,6 @@ public class Demo01TryCatch {
                 e.printStackTrace();
             }
         }
-        System.out.println("方法里的后续代码");
+        System.out.println("方法里的后续代码");     //出现异常时会执行，因为这里不在try代码段里，并且执行了catch方法会往下执行
     }
 }
