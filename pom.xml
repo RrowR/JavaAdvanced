@@ -13,6 +13,7 @@
         <module>day02_CollectionAndReflect</module>
         <module>day03_ListAndSet</module>
         <module>day04_Map</module>
+        <module>day05_ExceptionAndThread</module>
     </modules>
     <dependencies>
         <dependency>

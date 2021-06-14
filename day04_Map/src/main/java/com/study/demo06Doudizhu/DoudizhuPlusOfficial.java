@@ -71,7 +71,7 @@ public class DoudizhuPlusOfficial {
     /**
      * @param name  传入名字
      * @param poker 牌库
-     * @param list  每个用户的索引库，其value就是HashMap牌哭中的key
+     * @param list  每个用户的索引库，其value就是HashMap牌库中的key
      */
     private static void watchPoker(String name,HashMap<Integer,String> poker,ArrayList<Integer> list) {
         System.out.print("用户为:"+name+" ");
