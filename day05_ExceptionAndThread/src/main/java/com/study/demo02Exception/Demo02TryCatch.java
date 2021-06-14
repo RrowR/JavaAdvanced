@@ -6,6 +6,7 @@ public class Demo02TryCatch {
     public static void main(String[] args) {
         try {
             readFile("E:\\a.dsd");
+            System.out.println("try里的后续代码");        //没有被执行
         } catch (IOException e) {
             /*
                 Throwable类中定义了3个异常处理的方法,这个类是Exception和Error的父类

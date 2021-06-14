@@ -24,13 +24,11 @@ public class Demo01TryCatch {
         String file = "E:\\a.txt";
         if (!file.equals(filepath)){
             try {
-                throw new IOException();
+                throw new IOException("文件名不匹配");
             } catch (IOException e) {
-                /** 显示打印错误信息（红色显示）
-                 *   e.printStackTrace();
-                 */
-                System.out.println("文件名称不匹配");
+                e.printStackTrace();
             }
         }
+        System.out.println("方法里的后续代码");
     }
 }
