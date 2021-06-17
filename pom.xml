@@ -15,6 +15,7 @@
         <module>day04_Map</module>
         <module>day05_ExceptionAndThread</module>
         <module>PersonalExamination</module>
+        <module>day06_Thread</module>
     </modules>
     <dependencies>
         <dependency>
