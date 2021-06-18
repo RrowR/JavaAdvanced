@@ -1,4 +1,4 @@
-package com.study.threadRunableInterfaces;
+package com.study.demo04threadRunableInterfaces;
 
 /**
  * 实现Runable接口的方式，重写接口里的run方法

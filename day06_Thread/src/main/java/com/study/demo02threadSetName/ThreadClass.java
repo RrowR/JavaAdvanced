@@ -1,4 +1,4 @@
-package com.study.threadSetName;
+package com.study.demo02threadSetName;
 
 /**
  * java.lang.Object

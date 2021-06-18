@@ -1,4 +1,4 @@
-package com.study.threadSleep;
+package com.study.demo03threadSleep;
 
 /**
  * java.lang.Object

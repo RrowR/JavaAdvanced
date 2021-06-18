@@ -1,4 +1,4 @@
-package com.study.threadRunableInterfaces;
+package com.study.demo04threadRunableInterfaces;
 
 /**
  * Runable本身没有start方法，需要讲接口的实现类传到Thread里才可以调用start方法

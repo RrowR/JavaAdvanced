@@ -1,4 +1,4 @@
-package com.study.threadGetName;
+package com.study.demo01threadGetName;
 
 public class Demo01Thread {
     public static void main(String[] args) {

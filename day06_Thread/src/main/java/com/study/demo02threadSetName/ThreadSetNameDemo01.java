@@ -1,4 +1,4 @@
-package com.study.threadSetName;
+package com.study.demo02threadSetName;
 
 public class ThreadSetNameDemo01 {
     public static void main(String[] args) {

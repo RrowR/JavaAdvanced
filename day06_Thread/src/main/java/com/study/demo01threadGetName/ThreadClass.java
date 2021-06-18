@@ -1,4 +1,4 @@
-package com.study.threadGetName;
+package com.study.demo01threadGetName;
 
 public class ThreadClass extends Thread{
     @Override
