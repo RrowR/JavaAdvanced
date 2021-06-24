@@ -37,7 +37,8 @@ public class WaitAndNotify2 {
                     synchronized (obj){
                         //唤醒线程
                         try {
-                            obj.wait();
+//                            obj.wait();
+                            obj.wait(1000);     //设置等待的时间
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
