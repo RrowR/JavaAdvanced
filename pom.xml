@@ -16,6 +16,7 @@
         <module>day05_ExceptionAndThread</module>
         <module>PersonalExamination</module>
         <module>day06_Thread</module>
+        <module>day07_ThreadAndLambda</module>
     </modules>
     <dependencies>
         <dependency>
