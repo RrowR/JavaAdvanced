@@ -2,6 +2,7 @@ package com.study.demo01BaoziProject;
 
 /**
  * 顾客：吃包子的人
+ * 使用的是同一个对象来锁定线程
  */
 public class Customer extends Thread {
     private Baozi bz;

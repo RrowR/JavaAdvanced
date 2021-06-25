@@ -1,7 +1,7 @@
 package com.study.demo01BaoziProject;
 
 /**
- * 用来生产包子的包子铺
+ * 用来生产包子的包子铺,使用同一个锁对象来锁定线程
  */
 public class BaoZiPu extends Thread {
     private int count = 0;
