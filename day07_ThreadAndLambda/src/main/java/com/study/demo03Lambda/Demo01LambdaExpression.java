@@ -29,5 +29,6 @@ public class Demo01LambdaExpression {
             System.out.println(Thread.currentThread().getName() + "线程执行了third");
         }).start();
 
+        new Thread(() -> System.out.println(Thread.currentThread().getName() + "线程执行了third")).start();
     }
 }

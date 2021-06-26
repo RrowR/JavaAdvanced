@@ -16,6 +16,9 @@ public class Demo01Calculator {
         sumTwoNumbers(3, 4, (int a, int b) -> {
             return a + b;
         });
+
+        //lambda表达式的简写
+        sumTwoNumbers(3, 4, (a, b) -> a + b);
     }
 
     public static void sumTwoNumbers(int a, int b, Calculator calculator) {

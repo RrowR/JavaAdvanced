@@ -19,6 +19,8 @@ public class Demo01Cook {
         method01(() -> {
             System.out.println("吃饭了2");
         });
+
+        method01(() -> System.out.println("吃饭了2"));
     }
 
     //在定义的方法里传入接口，并调用接口里的方法

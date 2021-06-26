@@ -26,6 +26,9 @@ public class Demo01SortByLambda {
             return o2.getAge() - o1.getAge();
         });
 
+        //使用lambda表达式,简写
+        Arrays.sort(arr,(o1,o2)-> o2.getAge() - o1.getAge());
+
         for (Person person : arr) {
             System.out.println(person);
         }
