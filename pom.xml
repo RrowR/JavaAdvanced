@@ -17,6 +17,7 @@
         <module>PersonalExamination</module>
         <module>day06_Thread</module>
         <module>day07_ThreadAndLambda</module>
+        <module>day08_FileAndRecursion</module>
     </modules>
     <dependencies>
         <dependency>
