@@ -1,5 +1,7 @@
 package com.study.demo01IO;
 
+import java.io.File;
+
 /**
  * java.lang.Object
  *   继承者 java.io.File
@@ -23,6 +25,23 @@ package com.study.demo01IO;
  */
 public class Demo01IO {
     public static void main(String[] args) {
-
+        /*
+        *   static String pathSeparator
+          与系统有关的路径分隔符，为了方便，它被表示为一个字符串。
+            static char pathSeparatorChar
+          与系统有关的路径分隔符。
+            static String separator
+          与系统有关的默认名称分隔符，为了方便，它被表示为一个字符串。
+            static char separatorChar
+          与系统有关的默认名称分隔符。
+        * */
+        String pathSeparator = File.pathSeparator;
+        System.out.println(pathSeparator);          // 打印 ；称之为路劲分隔符（Windows） linux是 :
+        char pathSeparatorChar = File.pathSeparatorChar;
+        System.out.println(pathSeparatorChar);
+        String separator = File.separator;
+        System.out.println(separator);          //  \
+        char separatorChar = File.separatorChar;
+        System.out.println(separatorChar);      //      \
     }
 }
