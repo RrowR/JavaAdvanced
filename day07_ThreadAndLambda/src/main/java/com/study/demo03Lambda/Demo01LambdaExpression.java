@@ -25,7 +25,9 @@ public class Demo01LambdaExpression {
             ->:传递的意思,把参数传递给方法体{}
             {}:重写接口的抽象方法的方法体
  */
-        new Thread(() -> {System.out.println(Thread.currentThread().getName() + "线程执行了third");}).start();
-        
+        new Thread(() -> {
+            System.out.println(Thread.currentThread().getName() + "线程执行了third");
+        }).start();
+
     }
 }
