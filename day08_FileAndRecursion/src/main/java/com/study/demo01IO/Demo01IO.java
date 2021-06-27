@@ -35,6 +35,7 @@ public class Demo01IO {
             static char separatorChar
           与系统有关的默认名称分隔符。
         * */
+        // public static final String pathSeparator = "" + pathSeparatorChar;  源码
         String pathSeparator = File.pathSeparator;
         System.out.println(pathSeparator);          // 打印 ；称之为路劲分隔符（Windows） linux是 :
         char pathSeparatorChar = File.pathSeparatorChar;
