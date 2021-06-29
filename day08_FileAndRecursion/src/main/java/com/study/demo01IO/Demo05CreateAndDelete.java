@@ -13,22 +13,23 @@ import java.io.IOException;
  */
 public class Demo05CreateAndDelete {
     public static void main(String[] args) throws IOException {
-        createFileMethod();
+//        createFileMethod();
 //        deleteFileMethod();
 //        mkdirFileMethod();
 //        mkdirsFileMethod();
+        createMultiFileMethod();
     }
 
     private static void mkdirsFileMethod() {
         File file = new File("F:\\a\\b\\c\\d");
-        File file2 = new File("day08_FileAndRecursion\\a\\b\\c\\d\\e\\a.txt");      // 这里是创建文件夹
+        File file2 = new File("day08_FileAndRecursion\\a\\b\\c\\d\\e");      // 这里是创建文件夹
         boolean b = file2.mkdirs();
         System.out.println(b);
     }
 
     private static void mkdirFileMethod() {
 //        File file = new File("F:\\a\\b");
-        File file2 = new File("day08_FileAndRecursion\\a\\b\\c\\d\\e\\a.txt\\b.txt");       // 这里也是创建文件夹
+        File file2 = new File("day08_FileAndRecursion\\a\\b\\c\\d\\e");       // 这里也是创建文件夹
         boolean b = file2.mkdir();       // 创建单级文件夹
         System.out.println(b);
     }
@@ -42,8 +43,16 @@ public class Demo05CreateAndDelete {
 
     private static void createFileMethod() throws IOException {
         File file = new File("F:\\a.txt");
-        File file2 = new File("day08_FileAndRecursion\\a\\b\\c\\d\\e\\a.txt\\b.txt\\c.txt");        // 这里才是创建文件
+        File file2 = new File("day08_FileAndRecursion\\a\\b\\c\\d\\e\\c.txt");        // 这里才是创建文件
         boolean b = file2.createNewFile();
         System.out.println(b);
+    }
+
+    public static void createMultiFileMethod() throws IOException {
+        for (int i = 1; i < 10; i++) {
+            String a = i + "";
+            File file = new File("day08_FileAndRecursion\\a\\b\\c\\d\\e\\" + a);
+            file.createNewFile();
+        }
     }
 }
