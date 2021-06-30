@@ -1,4 +1,4 @@
-package com.study.demo01IO;
+package com.study.demo01IO.file;
 
 import java.io.File;
 import java.io.IOException;

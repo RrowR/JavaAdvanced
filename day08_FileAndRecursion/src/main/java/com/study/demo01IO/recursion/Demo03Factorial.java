@@ -1,9 +1,9 @@
-package com.study.demo01IO;
+package com.study.demo01IO.recursion;
 
 /**
  * 使用递归实现阶乘
  */
-public class Demo09Factorial {
+public class Demo03Factorial {
     public static void main(String[] args) {
         int factorial = factorial(4);
         System.out.println(factorial);

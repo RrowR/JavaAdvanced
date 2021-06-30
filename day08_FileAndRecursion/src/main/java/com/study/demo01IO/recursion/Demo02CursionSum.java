@@ -1,10 +1,10 @@
-package com.study.demo01IO;
+package com.study.demo01IO.recursion;
 
 /**
  * 使用递归计算1~n之间的和
  *  使用递归效率低下，不推荐使用
  */
-public class Demo08CursionSum {
+public class Demo02CursionSum {
     public static void main(String[] args) {
         int sum = methodSumForCursion(5);
         System.out.println(sum);

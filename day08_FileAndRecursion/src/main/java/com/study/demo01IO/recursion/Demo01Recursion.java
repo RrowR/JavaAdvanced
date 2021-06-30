@@ -1,4 +1,4 @@
-package com.study.demo01IO;
+package com.study.demo01IO.recursion;
 
 /**
  * 递归：自己调用自己
@@ -8,7 +8,7 @@ package com.study.demo01IO;
  *      a() 方法会一直调用a方法，在栈内存中越来越多，导致栈内存溢出
  *      构造方法禁止递归
  */
-public class Demo07Recursion {
+public class Demo01Recursion {
     public static void main(String[] args) {
 //        a();
         b(1);       // 11250 的时候，程序出现异常
@@ -17,7 +17,7 @@ public class Demo07Recursion {
     /**
      * 编译报错，禁止递归
      */
-    public Demo07Recursion() {
+    public Demo01Recursion() {
 //        Demo07Recursion();
     }
 
