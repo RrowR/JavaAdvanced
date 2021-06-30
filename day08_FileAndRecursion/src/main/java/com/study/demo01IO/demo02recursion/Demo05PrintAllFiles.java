@@ -1,4 +1,4 @@
-package com.study.demo01IO.recursion;
+package com.study.demo01IO.demo02recursion;
 
 import java.io.File;
 

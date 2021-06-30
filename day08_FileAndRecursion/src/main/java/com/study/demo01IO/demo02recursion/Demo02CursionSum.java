@@ -1,4 +1,4 @@
-package com.study.demo01IO.recursion;
+package com.study.demo01IO.demo02recursion;
 
 /**
  * 使用递归计算1~n之间的和

@@ -1,4 +1,4 @@
-package com.study.demo01IO.file;
+package com.study.demo01IO.demo01file;
 
 import java.io.File;
 
