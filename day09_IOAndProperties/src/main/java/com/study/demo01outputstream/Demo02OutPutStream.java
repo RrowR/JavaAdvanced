@@ -1,4 +1,4 @@
-package com.study.demo01.outputstream;
+package com.study.demo01outputstream;
 
 import java.io.File;
 import java.io.FileOutputStream;

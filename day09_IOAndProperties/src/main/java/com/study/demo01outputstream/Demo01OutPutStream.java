@@ -1,7 +1,6 @@
-package com.study.demo01.outputstream;
+package com.study.demo01outputstream;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
