@@ -12,7 +12,9 @@ import java.io.IOException;
 public class Demo04Writer {
     public static void main(String[] args) throws IOException {
         FileWriter fw = new FileWriter("day09_IOAndProperties/d.txt",true);
-        fw.write("\r\n");
+        for (int i = 0; i < 10; i++) {
+            fw.write("hello world"+i+"\r\n");
+        }
         fw.flush();
         fw.close();
     }
