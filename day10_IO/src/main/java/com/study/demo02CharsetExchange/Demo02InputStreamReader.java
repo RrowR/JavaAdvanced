@@ -29,5 +29,6 @@ public class Demo02InputStreamReader {
         while ((len = isr.read(c)) != -1) {
             System.out.println(c);
         }
+        isr.close();
     }
 }
