@@ -22,6 +22,8 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Person implements Serializable {
+    // 设置反序列化参数，当在反序列化的时候Entity发生了改变，在进行反序列化的时候也不会被改变，程序照样反序列化
+    private static final long serialVersionUID = 2l;
     private String name;
-    private transient Integer age;
+    private Integer age;
 }
