@@ -3,7 +3,7 @@ package com.study.demo03Serilizable;
 import java.io.*;
 import java.util.ArrayList;
 
-public class Demo03Serializable {
+public class Demo03SerializableArrays {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("day10_IO/serializable.txt"));
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("day10_IO/serializable.txt"));
