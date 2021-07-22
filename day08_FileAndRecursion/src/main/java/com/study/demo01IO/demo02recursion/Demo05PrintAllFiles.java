@@ -7,7 +7,7 @@ import java.io.File;
  */
 public class Demo05PrintAllFiles {
     public static void main(String[] args) {
-        File file = new File("F:\\abc");
+        File file = new File("day08_FileAndRecursion");
         getAllFiles(file);
     }
 
