@@ -10,7 +10,7 @@ public class TcpServer {
         if (!file.exists()){
             file.mkdirs();
         }
-        BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(file.getPath() + "/" + "picture.png"));
+        FileOutputStream fos = new FileOutputStream(file.getPath() + "/" + "picture.png");
         ServerSocket serverSocket = new ServerSocket(8888);
         // serverSocket不能获得 input 和 output ，不过可以调用accept方法返回一个socket
         /*
@@ -21,20 +21,20 @@ public class TcpServer {
             注意，这里是socket的输入输出流
          */
         InputStream inputStream = socket.getInputStream();
-        OutputStream outputStream = socket.getOutputStream();
+//        OutputStream outputStream = socket.getOutputStream();
 
         byte[] bytes = new byte[1024];
         int len;
         while ((len = inputStream.read(bytes)) != -1) {
             // 将网络中传过来的数据读取到服务器磁盘中
-            bufferedOutputStream.write(bytes,0,len);
+            fos.write(bytes,0,len);
         }
 
 //        outputStream.write("文件存储完毕".getBytes());
 //        socket.shutdownInput();
 //        socket.shutdownOutput();
 
-        bufferedOutputStream.close();
+        fos.close();
         serverSocket.close();
 
     }
