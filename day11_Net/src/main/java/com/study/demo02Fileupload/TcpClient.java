@@ -30,7 +30,6 @@ public class TcpClient {
             // 这里一定要设置起始值和结束值，不然打印出来是一个乱码，因为bytes后面的内容和输出的无关
             System.out.println(new String(bytes,0,len));
         }
-
         socket.close();
 
 

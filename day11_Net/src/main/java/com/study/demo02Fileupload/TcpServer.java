@@ -27,8 +27,8 @@ public class TcpServer {
         }
         bos.close();
         socketOutputStream.write("传输完成!!!".getBytes());
-        // 这里不设置结束标记也不会出现问题，因为下面还是会关闭serverSocket
-//        socket.shutdownOutput();
+        // 这里server也要发送一个结束标记给client，否则client端会出现Exception in thread “main“ java.net.SocketException: Connection reset
+        socket.shutdownOutput();
         serverSocket.close();
     }
 }
